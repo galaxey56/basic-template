@@ -1,0 +1,29 @@
+.side input{
+    outline: 0;
+    border-width: 0 0 2px;
+    width: 80%;
+}
+.side{
+    margin-top: 18%;
+}
+.help{
+    margin-top: 10%;
+    display: flex;
+}
+.help svg{
+    height: 3vh;
+    width: 3vw;
+    padding: 3px;
+    padding-top: 0;
+}
+.help p{
+    font-size: 0.8rem;
+}
+.side input:focus{
+    border-bottom-color: skyblue;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+.bottom{
+    transition: 0.3s ease-in-out;
+    border-bottom-color: skyblue;
+}

@@ -1,0 +1,19 @@
+.banner {
+  background-image: url(https://media.istockphoto.com/photos/computer-laptop-and-mobile-phone-on-black-color-office-desk-banner-picture-id1124643920?k=20&m=1124643920&s=170667a&w=0&h=PbTob3fibDknx9Ffe_XA-__4uMgWI-_zqir6qa088Ak=);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.margin {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.position {
+  font-family: IBM Plex plans;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+}

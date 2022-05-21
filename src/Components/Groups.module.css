@@ -1,0 +1,22 @@
+.group{
+    display: flex;
+    padding: 10px 0px;
+
+}
+.group img{
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+.group h6{
+    padding: 2px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.group button{
+    border-radius: 15px;
+    height: 5%;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 20%;
+}

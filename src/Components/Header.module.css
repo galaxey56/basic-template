@@ -1,0 +1,9 @@
+.margin{
+    margin: auto;
+}
+.search input{
+    height: 5vh;
+    border-radius: 15px;
+    border: 1px solid #000;
+    width: 20vw;
+}
