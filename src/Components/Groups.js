@@ -1,29 +1,33 @@
 import React from "react";
 import styles from "./Groups.module.css";
 import { useState } from "react";
+import group1 from '../assets/grp1.png';
+import group2 from '../assets/grp2.png';
+import group3 from '../assets/grp3.png';
+import group4 from '../assets/grp4.png';
 
 var groupDetails = [
   {
     key: 1,
-    pic: "https://is1-2.housingcdn.com/0b8ad14c/9c972ccfc54df72332b18874c02098d7/v1/medium.jpg",
+    pic: group1,
     name: "Leisure",
     status: false, //Status represents wether group is followed or not
   },
   {
     key: 2,
-    pic: "https://is1-2.housingcdn.com/0b8ad14c/9c972ccfc54df72332b18874c02098d7/v1/medium.jpg",
+    pic: group2,
     name: "Activism",
     status: false, //Status represents wether group is followed or not
   },
   {
     key: 3,
-    pic: "https://is1-2.housingcdn.com/0b8ad14c/9c972ccfc54df72332b18874c02098d7/v1/medium.jpg",
+    pic: group3,
     name: "MBA",
     status: false, //Status represents wether group is followed or not
   },
   {
     key: 4,
-    pic: "https://is1-2.housingcdn.com/0b8ad14c/9c972ccfc54df72332b18874c02098d7/v1/medium.jpg",
+    pic: group4,
     name: "Philosophy",
     status: false, //Status represents wether group is followed or not
   },

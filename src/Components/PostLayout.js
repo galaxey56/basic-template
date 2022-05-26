@@ -1,32 +1,41 @@
 import React from "react";
 import styles from "./PostLayout.module.css";
+import place1 from "../assets/1place.png";
+import pro1 from "../assets/1profile.png";
+import place2 from "../assets/2place.png";
+import pro2 from "../assets/2profile.png";
+import place3 from "../assets/3place.png";
+import pro3 from "../assets/3profile.png";
 
 const PostLayout = () => {
   const arr = [
     {
       type: "Article",
-      pic: "https://i.quotev.com/e72wyjmuzkgq.jpg",
+      pic: place1,
       name: "Sarthak Kamra",
       title: "What if famous brands had regular fonts?Meet RegularBrands!",
       description:
         "I've worked in UX for the better part of a decade. From now on, I plan to do stuff that hel...",
+      profile: pro1,
     },
     {
       type: "Education",
-      pic: "https://i.quotev.com/e72wyjmuzkgq.jpg",
+      pic: place2,
       name: "Sarah West",
       title:
         "Tax Benefits for investment under National Pension Scheme launched by Government",
       description:
         "I've worked in UX for the better part of a decade. From now on, I plan to do stuff that hel...",
+      profile: pro2,
     },
     {
       type: "MeetUp",
-      pic: "https://i.quotev.com/e72wyjmuzkgq.jpg",
+      pic: place3,
       name: "Ronal Jones",
       title: "What if famous brands had regular fonts?Meet RegularBrands!",
       description:
         "I've worked in UX for the better part of a decade. From now on, I plan to do stuff that hel...",
+      profile: pro3,
     },
   ]; //We can get these through props also
 
@@ -36,14 +45,14 @@ const PostLayout = () => {
         return (
           <div className={`card ${styles.post}`}>
             <img
-              src="https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?quality=90&resize=768,574"
+              src={post.pic}
               alt="mountain"
             ></img>
             <h6>{post.type}</h6>
             <div className={styles.title}>{post.title}</div>
             <p>{post.description}</p>
             <div className={styles.user}>
-              <img src={post.pic} alt="profile pic"></img>
+              <img src={post.profile} alt="profile pic"></img>
               <h6>{post.name}</h6>
               <div className={styles.right}>
                 <svg
